@@ -1,0 +1,26 @@
+@import 'reset';
+
+body{
+    background: #fff;
+}
+
+header{
+    background: #FAFAFA;
+    a{
+      box-sizing: border-box;
+      width: 25%;
+      display: inline-block;
+      margin-left: -3px;
+      text-align: center;
+      padding: 12px;
+      .fa{
+          color:111;
+          font-size:25px;
+      }
+     }
+}
+
+.icons
+{
+    background-color: aqua;
+}
