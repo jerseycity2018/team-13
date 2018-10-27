@@ -60,7 +60,7 @@ public partial class login : System.Web.UI.Page
                 if(Utype=="U")
                 {
                     Session["USERNAME"] = Username.Text;
-                    Response.Redirect("~/UserHome.aspx");
+                    Response.Redirect("~/profile.aspx");
                 }
                 if (Utype == "A")
                 {
