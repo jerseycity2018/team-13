@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Register_log",
+      "appliesTo": "WebSite1/App_Data/Register_log.ldf",
+      "type": "launch"
+    }
+  ]
+}
