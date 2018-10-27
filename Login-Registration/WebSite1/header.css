@@ -1,0 +1,39 @@
+@import 'reset';
+
+body {
+    background: #fff;
+}
+
+header {
+    background: #FAFAFA;
+    border-bottom: 1px solid #ccc;
+}
+
+    header a {
+        box-sizing: border-box;
+        width: 25%;
+        display: inline-block;
+        margin-left: -3px;
+        text-align: center;
+        padding: 12px;
+    }
+
+.icons {
+    color: black;
+    font-size: 25px;
+}
+
+.icons2 {
+    color: black;
+    font-size: 25px;
+}
+
+.icons3 {
+    color: black;
+    font-size: 25px;
+}
+
+.icons4 {
+    color: black;
+    font-size: 25px;
+}

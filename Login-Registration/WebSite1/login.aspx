@@ -20,34 +20,19 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<link rel="stylesheet" href="header.css" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
 </head>
 <body>
+
     <form id="form1" runat="server">
-    <div>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="Default.aspx" >Rare</a>
-            </div>
-            <div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="Default.aspx">Home</a></li>
-                    
-
-
-                    
-                    <li class="active"><a href="Login.aspx">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-        </div>
+    <header>
+        <a href="login.aspx"> <i class="fas fa-gamepad icons"></i> </a>
+        <a href="default.aspx"> <i class="far fa-newspaper icons2" aria-hidden="true"></i> </a>
+        <a href="challenges.aspx"> <i class="far fa-star icons3" aria-hidden="true"></i> </a>
+        <a href="profile.aspx"> <i class="fas fa-user-circle icons4" aria-hidden="true"></i> </a>
+    </header>
 
         <!-- Login -->
 
