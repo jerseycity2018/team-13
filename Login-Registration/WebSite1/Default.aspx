@@ -55,37 +55,10 @@
         <br />
 
         <!--Mid Content -->
-            <div class="container center">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-circle" src="Images/Technology.jpg" width="140" height="140"/>
-                    <h2>Technology</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non arcu urna. In quam odio, tempus vitae pretium eget, condimentum sit amet tellus. Nulla facilisi. Ut feugiat turpis ac neque iaculis auctor. Vivamus posuere fermentum felis eget vestibulum. Aenean dapibus porttitor lacus eu porta. Nullam in velit quis sem scelerisque commodo id sed quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc diam nulla, ultrices ut interdum non, gravida et diam. Praesent hendrerit placerat risus vel cursus. Morbi in diam neque.
-                    </p>
-                    <p><a class="btn btn-default" href="#" role="button">View &raquo;</a></p>
-                </div>
+            
+       
 
-                <div class="col-lg-4">
-                    <img class="img-circle" src="Images/business1.jpg" width="140" height="140"/>
-                    <h2>Business</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non arcu urna. In quam odio, tempus vitae pretium eget, condimentum sit amet tellus. Nulla facilisi. Ut feugiat turpis ac neque iaculis auctor. Vivamus posuere fermentum felis eget vestibulum. Aenean dapibus porttitor lacus eu porta. Nullam in velit quis sem scelerisque commodo id sed quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc diam nulla, ultrices ut interdum non, gravida et diam. Praesent hendrerit placerat risus vel cursus. Morbi in diam neque.
-                    </p>
-                    <p><a class="btn btn-default" href="#" role="button">View &raquo;</a></p>
-                </div>
 
-                <div class="col-lg-4">
-                    <img class="img-circle" src="Images/science.jpg" width="140" height="140"/>
-                    <h2>Science</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non arcu urna. In quam odio, tempus vitae pretium eget, condimentum sit amet tellus. Nulla facilisi. Ut feugiat turpis ac neque iaculis auctor. Vivamus posuere fermentum felis eget vestibulum. Aenean dapibus porttitor lacus eu porta. Nullam in velit quis sem scelerisque commodo id sed quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc diam nulla, ultrices ut interdum non, gravida et diam. Praesent hendrerit placerat risus vel cursus. Morbi in diam neque.
-                    </p>
-                    <p><a class="btn btn-default" href="#" role="button">View &raquo;</a></p>
-                </div>
-                </div>
-
-            </div>
         <!--Mid Content -->
 
 
