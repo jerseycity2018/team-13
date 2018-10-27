@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Website Name</title>
+    
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/CustomCenter.css" rel="stylesheet" />
-
+    <title>Live Feed</title>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,6 +32,8 @@
         <a href="default.aspx"> <i class="far fa-newspaper icons2" aria-hidden="true"></i> </a>
         <a href="challenges.aspx"> <i class="far fa-star icons3" aria-hidden="true"></i> </a>
         <a href="profile.aspx"> <i class="fas fa-user-circle icons4" aria-hidden="true"></i> </a>
+        
+        <script language="Javascript" type=text/javascript src="script.js"></script>
     </header>
 
 
@@ -56,7 +58,29 @@
 
         <!--Mid Content -->
             
-       
+       <!DOCTYPE html>
+
+
+<head>
+
+</head>
+<body>
+<form name="Live">
+<hr>
+<p id="p1"><font color="green"></font></p>
+<hr>
+<p id="p2"></p>
+<hr>
+<p id="p3"></p>
+<hr>
+<p id="p4"></p>
+<hr>
+<p id="p5"></p>
+<hr>
+<p><input type="button" name="select" value="Refresh" onclick="refresh()"></p>
+</form>    
+
+
 
 
         <!--Mid Content -->
