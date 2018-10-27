@@ -20,8 +20,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <link rel="stylesheet" href="header.css" type="text/css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="main2.css" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"/>
 
 </head>
 <body>
@@ -32,6 +32,35 @@
         <a href="default.aspx"> <i class="far fa-newspaper icons2" aria-hidden="true"></i> </a>
         <a href="challenges.aspx"> <i class="far fa-star icons3" aria-hidden="true"></i> </a>
         <a href="profile.aspx"> <i class="fas fa-user-circle icons4" aria-hidden="true"></i> </a>
+
+        
+    <header>
+        <a href="login.aspx"> <i class="fas fa-gamepad icons"></i> </a>
+        <a href="default.aspx"> <i class="far fa-newspaper icons2" aria-hidden="true"></i> </a>
+        <a href="challenges.aspx"> <i class="far fa-star icons3" aria-hidden="true"></i> </a>
+        <a href="profile.aspx"> <i class="fas fa-user-circle icons4" aria-hidden="true"></i> </a>
+    </header>
+    
+    <section class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="profile-img">
+                    
+                </div>
+                <div class="profile-info">
+                    <div class="name">username</div>
+                    <div class="location">Bloomfield, New Jersey</div>
+                    
+                </div>
+                <div class="time">
+                    1hr
+                </div>
+                <div>
+                    
+                </div>
+            </section>
+            
+        
     </header>
 
 
@@ -62,17 +91,16 @@
         <!--Mid Content -->
 
 
-        <!--Footer -->
-        <hr />
-            <footer>
-                <div class="container">
-                    <p class="pull-right"><a href="#">Back to top</a></p>
-                    <p>&copy; 2018 Rare.com &middot; <a href="Default.aspx">Home</a></p>
-                </div>
-            </footer>
-        <!--Footer -->
+        
 
     </form>
+    <!--Footer -->
+        <hr />
+            <footer>
+               
+
+            </footer>
+        <!--Footer -->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
