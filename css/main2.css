@@ -1,0 +1,188 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html   {
+    
+}
+
+body{
+    background: #fff;
+}
+
+header{
+    background: blue;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 20;
+    
+}
+header a{
+    box-sizing: border-box;
+    width: 25%;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    padding: 12px;
+}
+
+.icons
+{
+    color: green;
+    font-size:25px;
+}
+
+.icons2
+{
+    color: green;
+    font-size:25px;
+}
+
+.icons3
+{
+    color: green;
+    font-size:25px;
+}
+
+.icons4
+{
+    color: green;
+    font-size:25px;
+}
+.container{
+    background: #FAFAFA;
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    top: 26px;
+    bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    background: #fff;
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    overflow: auto;
+}
+
+.card-header{
+    padding: 15px;
+}
+
+.card-header .profile-img{
+    display: inline-block;
+    background: green;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position:relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.card-header .profile-info{
+    display: inline-block;
+} 
+.card-header .profile-info .name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #111;
+    font-weight: 700;
+}
+.card-header .profile-info .location{
+    font-size: 12px;
+    color: 111;
+}
+
+.card-header .time{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    float:right;
+    display: inline-block;
+    top: 10px;
+    position: relative;
+}
+.content{
+
+}
+img{
+    width: 100%;
+}
+.card-footer{
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.likes{
+    color: #111;
+    font-size: 12 px;
+    padding-bottom: 10px;
+}
+
+.username{
+    font-family: 'Open Sans'_ sans-serif;
+    font-weight:700;
+}
+    .description{
+        p{
+         font-size: 14px;
+         margin: 0;
+         padding: 0 0 5px 0;
+
+         }
+         
+        } 
+     .comments{
+        p{
+         font-size: 14px;
+         margin: 0;
+         paddling: 0 0 5px 0;
+         }
+         .username{
+             font-family: 'Open Sans'_ sans-serif;
+             font-weight:700;
+         }
+         hr{
+             padding 0;
+         }
+     } 
+     form{
+         padding:top: 15px;
+         .fa {
+            font-size: 24px;
+         }
+         .star{
+             display: inline-block;
+             width: 7%;
+             .fa{
+                 position: relative;
+                 top: 3px;
+             }
+         }
+         .addcomment{
+            display: inline-block;
+            width: 60%;
+            input{
+                width: 100%;
+                padding: 5px;
+                font-weight: 16px;
+                border: 0px solid #fff;
+            }
+         }
+         .options{
+            display: inline-block;
+            width: 7%;
+            float: right;
+            .fa{
+                position:relative;
+                top: 3px;
+
+            }
+         }
+         }
+     }
+    }
+}
