@@ -1,4 +1,8 @@
 @import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html   {
+    
+}
 
 body{
     background: #fff;
@@ -12,16 +16,16 @@ header{
     left: 0;
     width:100%;
     z-index: 20;
-
+    
 }
 header a{
-        box-sizing: border-box;
-        width: 25%;
-        display: inline-block;
-        margin-left: -3px;
-        text-align: center;
-        padding: 12px;
-        }
+    box-sizing: border-box;
+    width: 25%;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    padding: 12px;
+}
 
 .icons
 {
@@ -47,19 +51,57 @@ header a{
     font-size:25px;
 }
 .container{
- background: #FAFAFA;
- padding-top: 50px;
- position: absolute;
- width: 100%;
- top: 26px;
- bottom: 0;
+    background: #FAFAFA;
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    top: 26px;
+    bottom: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card {
     background: #fff;
     margin: 0 auto;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     border: 1px solid #ccc;
     border-radius: 2px;
+}
+
+.card-header{
+    padding: 15px;
+}
+
+.card-header .profile-img{
+    display: inline-block;
+    background: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position:relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.card-header .profile-info{
+    display: inline-block;
+} 
+.card-header .profile-info .name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #111;
+    font-weight: 700;
+}
+.card-header .profile-info .location{
+    font-size: 12px;
+    color: 111;
+}
+
+.card-header .time{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    float:right;
+    display: inline-block;
+    top: 10px;
+    position: relative;
 }
